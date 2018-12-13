@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    android:layout_alignParentBottom="true"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom">
+        <RelativeLayout
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+
+            >
+            <ImageView
+                android:id="@+id/ctrl_up"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:src="@drawable/icon_ctrl_up"/>
+            <ImageView
+                android:id="@+id/ctrl_right"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="100dp"
+                android:src="@drawable/icon_ctrl_right"/>
+            <ImageView
+                android:id="@+id/ctrl_down"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="50dp"
+                android:src="@drawable/icon_ctrl_down"/>
+            <ImageView
+                android:id="@+id/ctrl_left"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/icon_ctrl_left"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal|bottom"
+            android:layout_weight="1"
+            android:paddingBottom="50dp">
+
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            >
+            <com.starrtc.iot_car.demo.ui.HandleView
+                android:id="@+id/cameraOp"
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/ctrl_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@drawable/btn_style_red"
+        android:text="关闭"
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:id="@+id/ctrl_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/btn_style_green"
+        android:text="复位"
+        android:textColor="#FFFFFF"/>
+</RelativeLayout>
