@@ -6,6 +6,8 @@ rpi-live-raspbian
 ---
 基于Raspbian的直播
 
+![rpi-live](https://raw.githubusercontent.com/elesos/assets/master/2019/stuff/rpi-live-1.jpg)
+
 
 Contact
 =====
