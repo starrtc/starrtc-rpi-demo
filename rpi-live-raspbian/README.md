@@ -4,7 +4,8 @@ rpi-live-raspbian
 
 进入rpi目录。运行make编译出程序rpi-demo,然后运行即可
 
-然后打开其它客户端，进入互动直播，即可观看直播。
+然后下载其它[客户端示例程序](https://docs.starrtc.com/en/download/)，进入互动直播，即可观看直播。
+
 Contact
 =====
 QQ ： 2162498688
