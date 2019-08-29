@@ -13,5 +13,7 @@ ln -s libcurl.so.4.5.0 libcurl.so.4
 ln -s libcrypto.so.3 libcrypto.so
 ln -s libssl.so.3 libssl.so
 
+cd ${this_path}
+
 make clean && make 
 echo "success"
